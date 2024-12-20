@@ -1,0 +1,77 @@
+ body{
+   /* background: linear-gradient(90deg, #ff5733, #33c3ff, #ff33ff);
+  background-size: 300% 300%;
+  animation: gradientMove 6s ease infinite; */
+
+  font-family: 'poppins', sans-serif;
+}
+
+/* @keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  } */
+
+  /*navbar*/
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.navbar{
+  font-family: 'poppins', sans-serif;
+  font-size: larger;
+  
+}
+.clipped-img-fluid{
+  width: px ;
+}
+
+
+.navbar-brand img{
+  width: 190px;
+  height: auto;
+  padding-left: 40px;
+}
+
+/*container*/
+.atas{
+  position: relative;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 400x;  /* Lebar gambar */
+  height: 400px; /* Tinggi gambar */
+  border-radius: 60%; /* Membuat gambar menjadi lingkaran */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+  
+
+}
+.pilih {
+  width: 300px;
+  height: 180px;
+}
+.card{
+  position: relative;
+  justify-content: center;
+  margin: auto;
+}
+.datang {
+  position: relative;
+  justify-content: center;
+}
+.satu{
+  position: relative;
+  justify-content: center;
+}
+.bawah {
+  position: relative;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
