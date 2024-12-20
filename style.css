@@ -33,11 +33,12 @@
 }
 
 
-.navbar-brand img{
-  width: 190px;
-  height: auto;
-  padding-left: 40px;
+.navbar-brand img {
+  height: 60px; /* Atur tinggi logo */
+  width: auto; /* Sesuaikan lebar secara proporsional */
+  object-fit: contain; /* Pastikan logo tidak terdistorsi */
 }
+
 
 /*container*/
 .atas{
@@ -52,15 +53,16 @@
   
 
 }
-.pilih {
-  width: 300px;
-  height: 180px;
+
+.uniform-img {
+  width: 100%; /* Pastikan lebar gambar mengikuti container */
+  height: 200px; /* Atur tinggi gambar */
+  object-fit: cover; /* Agar gambar tidak terdistorsi */
+  object-position: center; /* Fokuskan gambar pada tengah */
+  border-radius: 0.5rem; /* Tambahkan radius untuk sudut */
 }
-.card{
-  position: relative;
-  justify-content: center;
-  margin: auto;
-}
+
+
 .datang {
   position: relative;
   justify-content: center;
@@ -74,4 +76,19 @@
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.list-group-name {
+  font-weight: bold; /* Bold untuk judul */
+  margin-bottom: 10px; /* Jarak dengan list item */
+}
+
+.list-group-item {
+  text-align: left; /* Paksa semua list item menjadi rata kiri */
+}
+
+.fut-img {
+  height: 20px;
+  width: auto;
+  object-fit: contain;
 }
