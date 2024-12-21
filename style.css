@@ -24,9 +24,10 @@
     padding-right: 50px;
   }
 
-.navbar{
+.navbar {
   font-family: 'poppins', sans-serif;
   font-size: larger;
+  background-color: transparent;
   
 }
 .clipped-img-fluid{
@@ -39,7 +40,12 @@
   width: auto; /* Sesuaikan lebar secara proporsional */
   object-fit: contain; /* Pastikan logo tidak terdistorsi */
 }
-
+.nav-link {
+  color: aliceblue;
+}
+.nav-link:hover{
+  color: rgb(210, 126, 126);
+}
 
 /*container*/
 .atas{
@@ -94,7 +100,7 @@
 }
 .btn {
   background-color: transparent;
-  color: black;
+  color: rgb(255, 255, 255);
   border: 2px solid;
 
 }
@@ -104,16 +110,20 @@
 
 }
 .btn:active{
-  color: black;
+  color: rgb(255, 255, 255);
 
 }
 
 
 /*footer*/
+footer{
+  background: transparent;
+}
 .fut-img {
   height: 20px;
   width: auto;
   object-fit: contain;
+  color: aliceblue;
 }
 
 .teks-who {
@@ -127,4 +137,10 @@ p {
 }
 h2, h5 {
   color:rgb(236, 238, 241);
+}
+
+.list-group-item {
+  background: transparent; /* Menghilangkan warna background default */
+  border: none; /* Opsional: Menghapus garis border */
+  color: white; /* Warna teks agar konsisten */
 }
