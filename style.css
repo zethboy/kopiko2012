@@ -6,7 +6,7 @@
   font-family: 'poppins', sans-serif;
 }
 
-/* @keyframes gradientMove {
+/* @keyframes gradientMove {~~
   0% {
     background-position: 0% 50%;
   }
@@ -91,4 +91,8 @@
   height: 20px;
   width: auto;
   object-fit: contain;
+}
+
+section + section {
+  margin-bottom: 40px;
 }
