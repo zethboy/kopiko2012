@@ -123,8 +123,35 @@ footer{
   height: 20px;
   width: auto;
   object-fit: contain;
-  color: aliceblue;
+  color: rgb(255, 255, 255); /* Warna yang diinginkan */
+  
 }
+.ig{
+  height: 22px;
+  width: auto;
+  object-fit: contain;
+}
+.gth{
+  height: 22px;
+  width: auto;
+  object-fit: contain;
+}
+.linke{
+  height: 25px;
+  width: auto;
+  object-fit: contain;
+}
+.phone{
+  height: 27px;
+  width: auto;
+  object-fit: contain;
+}
+.mail{
+  height: 27px;
+  width: auto;
+  object-fit: contain;
+}
+
 
 .teks-who {
   position: relative;
