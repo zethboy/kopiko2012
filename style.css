@@ -13,7 +13,7 @@
   width: 100%; /* Lebar penuh */
   height: 100%; /* Tinggi penuh */
   z-index: -1; /* Diletakkan di belakang semua elemen */
-  background-color: #000; /* Warna latar belakang sebagai fallback */
+  background-color: rgb(12, 12, 12); /* Warna latar belakang sebagai fallback */
  }
 /* @keyframes gradientMove {~~
   0% {
