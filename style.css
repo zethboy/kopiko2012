@@ -44,22 +44,35 @@
   color: aliceblue;
 }
 .nav-link:hover{
-  color: rgb(210, 126, 126);
+  color: rgb(31, 24, 55);
+}
+.navbar-toggler {
+  padding: 10px 15px; /* Atur padding agar lebih besar/kecil */
+  font-size: 1.5rem; /* Ubah ukuran ikon */
+  background-color: transparent; /* Warna latar */
+  border: 1px ; /* Warna border */
+  border-radius: 8px; /* Bentuk tombol */
+  transition: all 0.3s ease; /* Animasi saat dihover */
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 16 16'%3E%3Cpath fill='%23FF5722' fill-rule='evenodd' d='M0 1h16v2H0zm0 6h16v2H0zm0 6h16v2H0z'/%3E");
 }
 
 /*container*/
-.atas{
-  position: relative;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 400x;  /* Lebar gambar */
-  height: 400px; /* Tinggi gambar */
-  border-radius: 60%; /* Membuat gambar menjadi lingkaran */
-  object-fit: cover; /* Agar gambar tidak terdistorsi */
-  
+.uhuy{
+    position: relative;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400x;  /* Lebar gambar */
+    height: 400px; /* Tinggi gambar */
+    border-radius: 60%; /* Membuat gambar menjadi lingkaran */
+    object-fit: cover; /* Agar gambar tidak terdistorsi */
+    border: 3px solid aliceblue;
 
-}
+  
+  }
+
 
 .uniform-img {
   width: 100%; /* Pastikan lebar gambar mengikuti container */
@@ -110,8 +123,7 @@
 
 }
 .btn:active{
-  color: rgb(255, 255, 255);
-
+  background-color: rgb(10, 4, 33);
 }
 
 
@@ -125,6 +137,13 @@ footer{
   object-fit: contain;
   color: rgb(255, 255, 255); /* Warna yang diinginkan */
   
+}
+.list-group-item-action:hover {
+  background-color: transparent;
+  color: rgb(10, 4, 33);
+}
+.list-group-item-action:active{
+  color: aliceblue;
 }
 .ig{
   height: 22px;
@@ -164,6 +183,9 @@ p {
 }
 h2, h5 {
   color:rgb(236, 238, 241);
+}
+.card-title {
+  color: aliceblue;
 }
 
 .list-group-item {
