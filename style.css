@@ -143,28 +143,28 @@ button:hover {
   background-color: #11132c;
 }
 
-#materiboxe, #materiboxd, #materiboxp {
+.hidden {
+  display: none;
+}
+
+#materibox.visible , #materiboxs.visible , #materiboxp.visible{
+  display: flex; /* Menampilkan kotak */
+  opacity: 1; /* Membuat kotak terlihat */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   color: chartreuse;
-  background-color: rgba(0, 0, 0, 0.8); /* Latar belakang transparan */
-  display: none; /* Sembunyikan kotak secara default */
+  backdrop-filter: blur(5px); /* Latar belakang transparan */
   align-items: center;
   justify-content: center;
-  opacity: 0; /* Awalnya tidak terlihat */
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   z-index: 2;
 }
 
-#materiboxe.visible, #materiboxd.visible, #materiboxp.visible {
-  display: flex; /* Menampilkan kotak */
-  opacity: 1; /* Membuat kotak terlihat */
-}
 
-.modal-contente, .modal-contentd, .modal-contentp {
+.modal-content {
   background: #ff0000;
   padding: 20px;
   border-radius: 10px;
@@ -173,6 +173,7 @@ button:hover {
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
 
 
 
