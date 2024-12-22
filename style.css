@@ -6,7 +6,15 @@
 
   font-family: 'poppins', sans-serif;
 }
-
+ #particles-js{
+  position: fixed; /* Agar tetap berada di latar belakang meskipun di-scroll */
+  top: 0;
+  left: 0;
+  width: 100%; /* Lebar penuh */
+  height: 100%; /* Tinggi penuh */
+  z-index: -1; /* Diletakkan di belakang semua elemen */
+  background-color: #000; /* Warna latar belakang sebagai fallback */
+ }
 /* @keyframes gradientMove {~~
   0% {
     background-position: 0% 50%;
@@ -44,7 +52,7 @@
   color: aliceblue;
 }
 .nav-link:hover{
-  color: rgb(31, 24, 55);
+  color: #491089;
 }
 .navbar-toggler {
   padding: 10px 15px; /* Atur padding agar lebih besar/kecil */
@@ -118,12 +126,12 @@
 
 }
 .btn:hover {
-  background-color: rgb(10, 4, 33);
+  background-color: #491089;
   border: 2px solid;
 
 }
 .btn:active{
-  background-color: rgb(10, 4, 33);
+  background-color: #491089;
 }
 
 
@@ -140,7 +148,7 @@ button {
 }
 
 button:hover {
-  background-color: #11132c;
+  background-color: #491089;
 }
 
 .hidden {
@@ -156,7 +164,7 @@ button:hover {
   width: 100%;
   height: 100%;
   color: chartreuse;
-  backdrop-filter: blur(5px); /* Latar belakang transparan */
+  backdrop-filter: blur(10px); /* Latar belakang transparan */
   align-items: center;
   justify-content: center;
   transition: opacity 0.1s ease-in-out;
@@ -165,16 +173,27 @@ button:hover {
 
 
 .modal-content {
-  background: #ff0000;
+  background: transparent;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 7px;
+  border: 2px solid aliceblue;
   width: 80%;
   max-width: 500px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
+#closebox:hover, #closeboxs:hover, #closeboxp:hover{
+  background-color: #491089;
+}
 
+
+
+.img-skil{
+  width: 80px;
+  height: auto;
+  margin: 20px;
+}
 
 
 /*footer*/
@@ -190,7 +209,7 @@ footer{
 }
 .list-group-item-action:hover {
   background-color: transparent;
-  color: rgb(10, 4, 33);
+  color: #491089;
 }
 .list-group-item-action:active{
   color: aliceblue;
