@@ -54,16 +54,11 @@
 .nav-link:hover{
   color: #491089;
 }
-.navbar-toggler {
-  padding: 10px 15px; /* Atur padding agar lebih besar/kecil */
-  font-size: 1.5rem; /* Ubah ukuran ikon */
-  background-color: transparent; /* Warna latar */
-  border: 1px ; /* Warna border */
-  border-radius: 8px; /* Bentuk tombol */
-  transition: all 0.3s ease; /* Animasi saat dihover */
+.navbar-togler{
+  border-color: aliceblue;
 }
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 16 16'%3E%3Cpath fill='%23FF5722' fill-rule='evenodd' d='M0 1h16v2H0zm0 6h16v2H0zm0 6h16v2H0z'/%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /*container*/
@@ -163,7 +158,7 @@ button:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  color: chartreuse;
+  color: #f4f0f9;
   backdrop-filter: blur(10px); /* Latar belakang transparan */
   align-items: center;
   justify-content: center;
@@ -194,6 +189,37 @@ button:hover {
   height: auto;
   margin: 20px;
 }
+
+.vertical-line {
+  position: relative;
+  width: 4px;
+  height: 500px; /* Tinggi garis */
+  background-color: #491089;
+  margin: 20px auto;
+}
+
+.dot-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Teks dan titik dalam satu kolom */
+  align-items: center;
+  margin-bottom: 50px; /* Spasi antar titik */
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #491089;
+  border-radius: 50%;
+}
+
+.label {
+  margin-top: 8px; /* Jarak teks ke titik */
+  font-size: 12px;
+  text-align: center;
+}
+
+
 
 
 /*footer*/

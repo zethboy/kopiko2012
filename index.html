@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ISENG ISENG</title>
+  <title>Yogi Nugraha</title>
   <link 
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
     rel="stylesheet">
@@ -17,7 +17,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg ">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="">
         <img src="./20241222_113738.png" class="img-fluid" alt="logoweb" >
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +25,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="#">Home</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Other</a>
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#other">Other</a>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
   <div class="container text-center py-5">
     <div class="row align-items-center">
       <div class="col-md-6">
-        <h2 class="display-4">Welcome to My Page!</h2>
+        <h2 class="display-4" id="home">Welcome to My Page!</h2>
         <p class="lead">Hello, I'm Yogi Nugraha! Thank you for visiting my page. Here, you can learn more about my journey, my skills, and the projects I've worked on.</p>
       </div>
       <div class="col-md-6">
@@ -58,7 +58,7 @@
   </div>
 
   <!-- Card Section -->
-  <div class="container py-5">
+  <div class="container py-5" id="about">
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card">
@@ -73,13 +73,30 @@
 
       <div id="materibox" class="hidden">
         <div class="modal-content">
-          <div class="flow-container">
-            <div class="flow-item">Step 1</div>
-            <div class="flow-line"></div>
-            <div class="flow-item">Step 2</div>
-            <div class="flow-line"></div>
-            <div class="flow-item">Step 3</div>
-          </div><button id="closebox">Close</button>
+          <div class="vertical-line">
+            <div class="dot-wrapper">
+              <div class="dot"></div>
+              <span class="label">TK Al-Ikhlas</span>
+            </div>
+            <div class="dot-wrapper">
+              <div class="dot"></div>
+              <span class="label">SDN 2 Karangsambung</span>
+            </div>
+            <div class="dot-wrapper">
+              <div class="dot"></div>
+              <span class="label">SMPN 11 Kota Tasikmalaya</span>
+            </div>
+            <div class="dot-wrapper">
+              <div class="dot"></div>
+              <span class="label">SMAN 1 Manonjaya</span>
+            </div>
+            <div class="dot-wrapper">
+              <div class="dot"></div>
+              <span class="label">Universitas Siliwangi</span>
+            </div>
+          </div>
+          
+          <button id="closebox">Close</button>
         </div>
       </div>
 
@@ -135,7 +152,7 @@
   <div>
     <figure class="text-center">
       <blockquote class="blockquote teks-who">
-        <h2>Contact</h2>
+        <h2 id="other">Contact</h2>
         <p></p>
       </blockquote>
     </figure>
