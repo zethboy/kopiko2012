@@ -3,7 +3,9 @@
   background-size: 300% 300%;
   animation: gradientMove 6s ease infinite; */
   background-color: rgb(25, 25, 52);
-
+  margin : 0;
+  padding : 0;
+  height : 100vh;
   font-family: 'poppins', sans-serif;
 }
  #particles-js{
@@ -12,7 +14,8 @@
   left: 0;
   width: 100%; /* Lebar penuh */
   height: 100%; /* Tinggi penuh */
-  z-index: -1; /* Diletakkan di belakang semua elemen */
+  /* Diletakkan di belakang semua elemen */
+  background : #f00;
   background-color: rgb(12, 12, 12); /* Warna latar belakang sebagai fallback */
  }
 /* @keyframes gradientMove {~~
