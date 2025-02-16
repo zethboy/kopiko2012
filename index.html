@@ -70,37 +70,25 @@
           <div class="card-body text-center">
             <h5 class="card-title">Education</h5>
             <p class="card-text">I am an active student of the Informatics study program at Siliwangi University.</p>
-            <a class="btn btn-primary ditel" id="showbox">Details</a>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#materiboxe">Details</a>
           </div>
         </div>
       </div>
 
-      <div id="materibox" class="hidden">
-        <div class="modal-content">
-          <div class="vertical-line">
-            <div class="dot-wrapper">
-              <div class="dot"></div>
-              <span class="label">TK Al-Ikhlas</span>
+      <div class="modal fade" id="materiboxe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Education</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ini adalah detail dari portfolio kamu.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
             </div>
-            <div class="dot-wrapper">
-              <div class="dot"></div>
-              <span class="label">SDN 2 Karangsambung</span>
-            </div>
-            <div class="dot-wrapper">
-              <div class="dot"></div>
-              <span class="label">SMPN 11 Kota Tasikmalaya</span>
-            </div>
-            <div class="dot-wrapper">
-              <div class="dot"></div>
-              <span class="label">SMAN 1 Manonjaya</span>
-            </div>
-            <div class="dot-wrapper">
-              <div class="dot"></div>
-              <span class="label">Universitas Siliwangi</span>
-            </div>
-          </div>
-          
-          <button id="closebox">Close</button>
         </div>
       </div>
 
@@ -110,16 +98,16 @@
           <div class="card-body text-center">
             <h5 class="card-title">Skills</h5>
             <p class="card-text">With HTML, CSS, and JavaScript skills, I create attractive and functional web interfaces.</p>
-            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#materiboxp">Details</a>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#materiboxss">Details</a>
           </div>
         </div>
       </div>
 
-      <div class="modal fade" id="materiboxp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="materiboxss" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Portfolio</h5>
+                    <h5 class="modal-title">Skills</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">

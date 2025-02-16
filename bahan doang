@@ -1,1 +1,22 @@
-        
+<div class="vertical-line">
+  <div class="dot-wrapper">
+    <div class="dot"></div>
+    <span class="label">TK Al-Ikhlas</span>
+  </div>
+  <div class="dot-wrapper">
+    <div class="dot"></div>
+    <span class="label">SDN 2 Karangsambung</span>
+  </div>
+  <div class="dot-wrapper">
+    <div class="dot"></div>
+    <span class="label">SMPN 11 Kota Tasikmalaya</span>
+  </div>
+  <div class="dot-wrapper">
+    <div class="dot"></div>
+    <span class="label">SMAN 1 Manonjaya</span>
+  </div>
+  <div class="dot-wrapper">
+    <div class="dot"></div>
+    <span class="label">Universitas Siliwangi</span>
+  </div>
+</div>
